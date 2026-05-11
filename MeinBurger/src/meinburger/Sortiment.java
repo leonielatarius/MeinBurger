@@ -49,6 +49,9 @@ public class Sortiment {
 	pattys[2] =  new Patty (22, "Falafel-Bratling", 1.45f , false, true, false, 3.5, 21 );
 	pattys[3] =  new Patty (23, "Gemüse-Bratling", 1.75f , false, false, true, 4, 25 );
 	
+	//Käse*
+	
+	
 	//vegetables 
     vegetables = new Ingredients[4];
     
@@ -56,5 +59,6 @@ public class Sortiment {
 	vegetables[1] =  new Vegetable (41, "Salzgurke", 0.15f , false, false, false, 4, 2);
 	vegetables[2] =  new Vegetable (42, "Rote Zwiebelringe", 0.08f , false, false, false, 5, 2 );
 	vegetables[3] =  new Vegetable (43, "Jalapeno-Ringe", 0.08f , false, false, false, 5, 2);
+	
  }
 }

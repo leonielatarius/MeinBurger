@@ -12,8 +12,10 @@ public class Bun extends Ingredients{
 	}
 	
 	@Override
+	
 	public void zubereiten() {
-		// TODO Auto-generated method stub
+		
+		
 		
 	}
 
