@@ -6,6 +6,8 @@ public class Sortiment {
 	 * Hier kommen alle Ingredeints rein als Arrays
 	 * so kann man flexibel dei Kart eanpassen 
 	 */
+	//vl noch standard tag angebn 
+	//und bei vegetable scheiben und ringe 
 	
 	//BUrger Brötchen  
 	private Ingredients[] buns; 
@@ -42,17 +44,17 @@ public class Sortiment {
 
      pattys = new Ingredients[4];
 	
-	pattys[0] =  new Patty (20, "Rindfleisch (Original)", 1.85f , true, false, false, 0, 0 );
-	pattys[1] =  new Patty (21, "Hähnchenfleisch gegrillt", 1.15f , true, false, false, 0, 0 );
-	pattys[2] =  new Patty (22, "Falafel-Bratling", 1.45f , false, true, false, 0, 0 );
-	pattys[3] =  new Patty (23, "Gemüse-Bratling", 1.75f , false, false, true, 0, 0 );
+	pattys[0] =  new Patty (20, "Rindfleisch (Original)", 1.85f , true, false, false, 4.5, 25 );
+	pattys[1] =  new Patty (21, "Hähnchenfleisch gegrillt", 1.15f , true, false, false, 3, 11 );
+	pattys[2] =  new Patty (22, "Falafel-Bratling", 1.45f , false, true, false, 3.5, 21 );
+	pattys[3] =  new Patty (23, "Gemüse-Bratling", 1.75f , false, false, true, 4, 25 );
 	
 	//vegetables 
     vegetables = new Ingredients[4];
     
-	vegetables[0] =  new Vegetable (10, "Hamburger Standard", 0.85f , true, false, true, 0, 0 );
-	vegetables[1] =  new Vegetable (10, "Hamburger Standard", 0.85f , true, false, true, 0, 0 );
-	vegetables[2] =  new Vegetable (10, "Hamburger Standard", 0.85f , true, false, true, 0, 0 );
-	vegetables[3] =  new Vegetable (10, "Hamburger Standard", 0.85f , true, false, true, 0, 0 );
+	vegetables[0] =  new Vegetable (40, "Tomato", 0.25f , false, false, false, 3, 3 );
+	vegetables[1] =  new Vegetable (41, "Salzgurke", 0.15f , false, false, false, 4, 2);
+	vegetables[2] =  new Vegetable (42, "Rote Zwiebelringe", 0.08f , false, false, false, 5, 2 );
+	vegetables[3] =  new Vegetable (43, "Jalapeno-Ringe", 0.08f , false, false, false, 5, 2);
  }
 }

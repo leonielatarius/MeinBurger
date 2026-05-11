@@ -10,6 +10,7 @@ public  abstract class Ingredients {
 	protected boolean classic; 
 	protected boolean vegan; 
 	protected boolean vegetarian ;
+	protected boolean standard;
 	
 	//Konstruktor
 	public Ingredients(int number, String name, float price, boolean classic, boolean vegan, boolean vegetarian) {
@@ -19,6 +20,7 @@ public  abstract class Ingredients {
 		this.classic = classic;
 		this.vegan = vegan;
 		this.vegetarian = vegetarian;
+		this.standard = standard; 
 	} 
 	
 	//Methoden

@@ -26,8 +26,31 @@ public class Burger {
 		this.type = type;
 		this.tasteProfile = tasteProfile;
 	} 
+	//entwder für stajdard burger default construktor aber glaube eher weniger
+	//oder man erstellt beim meü einfach standrad burger und andere auch mäßig als schon vorgegeben 
+	//public Burger () {
+	//this.name ="Standard Burger";
+	
+	//höhe des burgers gesmat 
+	public void hoeheGesamt() {
+		
+	}
+	//preis zusammenrechnen 
+	public void preisGesamt() {
+		
+	}
+	//je nach sauce wir der type halt anders also if
+	public void tasteFestlegen() {
+		
+	}
+	//je nach vegan ode rvegetarsiuch etc  wir der type halt anders also if
+	public void typeFestlegen() {
+		
+	}
+}
+
 	
 	
 	
 
-}
+
