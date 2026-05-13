@@ -1,4 +1,4 @@
-package meinburger;
+package meinburger.ingredients;
 
 public  abstract class Ingredients {
 /*

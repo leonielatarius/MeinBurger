@@ -1,4 +1,4 @@
-package meinburger;
+package builder;
 
 public class Burger {
 	/*

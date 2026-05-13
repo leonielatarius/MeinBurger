@@ -1,4 +1,4 @@
-package meinburger;
+package meinburger.ingredients;
 
 public class Salad extends Ingredients{
 

@@ -1,4 +1,4 @@
-package meinburger;
+package controller;
 
 /*
  * Burger machen mäßig ZUBEREITUNG 

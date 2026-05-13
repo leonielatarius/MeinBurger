@@ -1,4 +1,4 @@
-package meinburger;
+package meinburger.ingredients;
 
 public class Bun extends Ingredients{
 	

@@ -1,4 +1,4 @@
-package meinburger;
+package menu;
 
 public class Dessert {
 

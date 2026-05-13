@@ -1,5 +1,11 @@
-package meinburger;
+package builder;
 
+import meinburger.ingredients.Bun;
+import meinburger.ingredients.Ingredients;
+import meinburger.ingredients.Patty;
+import meinburger.ingredients.Salad;
+import meinburger.ingredients.Sauce;
+import meinburger.ingredients.Vegetable;
 
 public class Sortiment {
 	/*
@@ -61,4 +67,9 @@ public class Sortiment {
 	vegetables[3] =  new Vegetable (43, "Jalapeno-Ringe", 0.08f , false, false, false, 5, 2);
 	
  }
+	public String toString() {
+		return null;
+		
+	}
+	
 }
