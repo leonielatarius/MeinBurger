@@ -31,8 +31,16 @@ public class Burger {
 	//public Burger () {
 	//this.name ="Standard Burger";
 	
+	//man darf nur max neuen zutaten adden 
+	
+	
 	//höhe des burgers gesmat 
 	public void hoeheGesamt() {
+		
+	}
+	//berechnung zubereitungszeit
+	
+	public void zeitGesamt() {
 		
 	}
 	//preis zusammenrechnen 

@@ -72,4 +72,6 @@ public class Sortiment {
 		
 	}
 	
+	//getter für dei ingredients das man dienummer nennet un es ausgegebn wird 
+	
 }
