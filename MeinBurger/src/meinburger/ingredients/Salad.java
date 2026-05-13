@@ -8,14 +8,16 @@ public class Salad extends Ingredients{
 	}
 
 	@Override
-	public void zubereiten() {
+	public int zubereiten() {
+		System.out.println(name + " wird gewaschen und geschleudert");
+		return 0;
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void berechneHoehe() {
-		// TODO Auto-generated method stub
+	public float berechneHoehe() {
+		return 0;
 		
 	}
 

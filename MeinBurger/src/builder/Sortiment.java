@@ -15,7 +15,7 @@ public class Sortiment {
 	//vl noch standard tag angebn 
 	//und bei vegetable scheiben und ringe 
 	
-	//BUrger Brötchen  
+	//list mit den sahcen halt   
 	private Ingredients[] buns; 
 	private Ingredients[] salads; 
 	private Ingredients[] sauces; 
@@ -23,14 +23,14 @@ public class Sortiment {
 	private Ingredients[] vegetables; 
 	
 	public Sortiment() {
-	
+	//UNBEDINGT VEGAN UN DVEGETRAIAN VERBESSERN UN DSTANDARD AUCH NOCH HINZUFÜGEN ÜBERALL 
 	//Brötchen
 	buns = new Ingredients[4];
 	
 	buns[0] = new Bun (10, "Hamburger Standard", 0.85f , false, false, true, 27, 1.5);
 	buns[1] = new Bun (11, "Hamburger Sesam", 0.95f , false, false, true, 28, 1.5 );
-	buns[2] = new Bun (12, "Vegan Brötchen", 0.55f , false, true, false, 0, 4 );
-	buns[3] = new Bun (13, "Ciabatta", 0.45f , false, false, true, 0, 5.5 );
+	buns[2] = new Bun (12, "Vegan Brötchen", 0.55f , false, true, false, 34, 4 );
+	buns[3] = new Bun (13, "Ciabatta", 0.45f , false, false, true, 41, 5.5 );
 	
 	//Salate
 	salads = new Ingredients[2];
@@ -67,11 +67,12 @@ public class Sortiment {
 	vegetables[3] =  new Vegetable (43, "Jalapeno-Ringe", 0.08f , false, false, false, 5, 2);
 	
  }
+	//dei ausgabe für dei ganz ezutaten list eam besten  einzeln; also beim schritt vegetables dann dieses array aufrufen 
 	public String toString() {
 		return null;
 		
 	}
 	
-	//getter für dei ingredients das man dienummer nennet un es ausgegebn wird 
+	//get methode damit man dei zuaten via ihrer nummer aufrufen kann 
 	
 }

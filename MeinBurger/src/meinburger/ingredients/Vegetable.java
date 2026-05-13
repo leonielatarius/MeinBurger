@@ -2,8 +2,8 @@ package meinburger.ingredients;
 
 public class Vegetable extends Ingredients{
 	
-	public int scheibenDicke;
-	public int scheibenAnzahl;
+	private int scheibenDicke;
+	private int scheibenAnzahl;
 
 	public Vegetable(int number, String name, float price, boolean classic, boolean vegan, boolean vegetarian, int scheibenAnzahl, int scheibenDicke) {
 		super(number, name, price, classic, vegan, vegetarian);
@@ -12,14 +12,17 @@ public class Vegetable extends Ingredients{
 	}
 
 	@Override
-	public void zubereiten() {
-		// TODO Auto-generated method stub
-		
+	public int zubereiten() {
+		System.out.println(name + " wird gewaschen.");
+		for (int i = 1 ; i<=scheibenAnzahl; i++) {
+			System.out.println(" Die "+i + ". Scheibe wird mit " + scheibenDicke + " mm geschnitten ");
+		}
+		return scheibenAnzahl;
 	}
-
 	@Override
-	public void berechneHoehe() {
-		// TODO Auto-generated method stub
+	public float berechneHoehe() {
+		return (scheibenAnzahl * scheibenDicke);
+		
 		
 	}
 

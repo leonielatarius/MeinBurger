@@ -2,8 +2,8 @@ package meinburger.ingredients;
 
 public class Bun extends Ingredients{
 	
-	public double backzeit ; 
-	public int hoehe;
+	private double backzeit ; 
+	private int hoehe;
 
 	public Bun(int number, String name, float price, boolean classic, boolean vegan, boolean vegetarian, int hoehe, double backzeit) {
 		super(number, name, price, classic, vegan, vegetarian);
@@ -12,16 +12,15 @@ public class Bun extends Ingredients{
 	}
 	
 	@Override
+	public int zubereiten() {
+		System.out.println(name+ " wird "+ backzeit + " Minuten geröstet und aufgeschnitten.");
+		return (int) backzeit;
 	
-	public void zubereiten() {
-		
-		
-		
 	}
-
 	@Override
-	public void berechneHoehe() {
-		// TODO Auto-generated method stub
+	public float berechneHoehe() {
+		return (float) (hoehe * (1+ 0.0 * backzeit));
+		
 		
 	}
 

@@ -6,55 +6,59 @@ public class Burger {
 	 * bzw je nach dem wie der burger zusammengestellt wird ist es anders 
 	 * ich würde auch noch eine custo mfunktio  hinzufügen mit name your own burger , add to existing menü bc it sound sso tasty 
 	 */
+	//DAS ARRAY MIT ZUATEN HINZUFÜGEN 
 	
-	protected String name ; 
+	private String name ; 
 	//das folgende muss wahrscheinlich ein Array sein 
 	//protected String ingredeints ; 
-	protected int price; 
-	protected int height; 
+	private float price; 
+	private float height; 
 	//schelife mit falls einer der ingredeints oben ungleich vegetraisch /vegan 
 	protected String type; 
 	//für das genauso eigntlich 
 	protected String tasteProfile;
 	
 	//Konstruktor 
-	public Burger(String name, int price, int height, String type, String tasteProfile) {
-		super();
-		this.name = name;
-		this.price = price;
-		this.height = height;
-		this.type = type;
-		this.tasteProfile = tasteProfile;
+	public Burger(String name) {
+		this.name = name ; 
+		
+		
 	} 
 	//entwder für stajdard burger default construktor aber glaube eher weniger
 	//oder man erstellt beim meü einfach standrad burger und andere auch mäßig als schon vorgegeben 
 	//public Burger () {
 	//this.name ="Standard Burger";
 	
-	//man darf nur max neuen zutaten adden 
+	//Add zutaten Methode (max 9 )
 	
 	
 	//höhe des burgers gesmat 
-	public void hoeheGesamt() {
+	public float hoeheGesamt() {
+		return 0;
 		
 	}
 	//berechnung zubereitungszeit
 	
-	public void zeitGesamt() {
+	public int zeitGesamt() {
+		return 0;
 		
 	}
 	//preis zusammenrechnen 
-	public void preisGesamt() {
+	public float preisGesamt() {
+		return 0;
 		
 	}
 	//je nach sauce wir der type halt anders also if
-	public void tasteFestlegen() {
+	public String tasteFestlegen() {
+		return null;
 		
 	}
 	//je nach vegan ode rvegetarsiuch etc  wir der type halt anders also if
-	public void typeFestlegen() {
+	public String typeFestlegen() {
+		return null;
 		
 	}
+	
 }
 
 	

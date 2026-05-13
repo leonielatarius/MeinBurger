@@ -20,15 +20,15 @@ public  abstract class Ingredients {
 		this.classic = classic;
 		this.vegan = vegan;
 		this.vegetarian = vegetarian;
-		this.standard = standard; 
+		
 	} 
 	
 	//Methoden
 	//Zubereitung der Zutat 
-	public abstract  void zubereiten();
+	public abstract  int zubereiten();
 	
 	//Höhe der Zutat 
-	public abstract void berechneHoehe();
+	public abstract float berechneHoehe();
 	
 	@Override
 	public String toString() {
