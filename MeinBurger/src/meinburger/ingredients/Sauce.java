@@ -19,11 +19,7 @@ public class Sauce extends Ingredients {
 			
 	}
 
-	@Override
-	public float berechneHoehe() {
-		return 0;
-		
-		
-	}
+	
+	
 
 }

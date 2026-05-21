@@ -15,10 +15,5 @@ public class Salad extends Ingredients{
 		
 	}
 
-	@Override
-	public float berechneHoehe() {
-		return 0;
-		
-	}
 
 }
