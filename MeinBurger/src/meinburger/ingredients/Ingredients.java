@@ -27,9 +27,6 @@ public  abstract class Ingredients {
 	//Zubereitung der Zutat 
 	public abstract  int zubereiten();
 	
-	//Höhe der Zutat 
-	public abstract float berechneHoehe();
-	
 	@Override
 	public String toString() {
 		return null;

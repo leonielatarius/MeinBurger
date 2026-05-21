@@ -1,7 +1,10 @@
 package meinburger.ingredients;
 
-public class Bun extends Ingredients{
+import Interfaces.HoeheBerechenbar;
+
+public class Bun extends Ingredients implements HoeheBerechenbar {
 	
+
 	private double backzeit ; 
 	private int hoehe;
 
@@ -11,6 +14,7 @@ public class Bun extends Ingredients{
 		this.backzeit = backzeit;
 	}
 	
+			
 	@Override
 	public int zubereiten() {
 		System.out.println(name+ " wird "+ backzeit + " Minuten geröstet und aufgeschnitten.");
@@ -18,10 +22,10 @@ public class Bun extends Ingredients{
 	
 	}
 	@Override
-	public float berechneHoehe() {
-		return (float) (hoehe * (1+ 0.0 * backzeit));
-		
-		
-	}
+	//interface aufruf 
+	
+	 public float berechneHoehe() {
+        return (float)(hoehe * (1 - 0.035 * backzeit));
+    }
 
 }

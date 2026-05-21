@@ -1,6 +1,8 @@
 package meinburger.ingredients;
 
-public class Patty extends Ingredients{
+import Interfaces.HoeheBerechenbar;
+
+public class Patty extends Ingredients implements HoeheBerechenbar{
 	
 	private double bratzeit; 
 	private int hoehe; 

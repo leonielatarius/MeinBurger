@@ -1,6 +1,8 @@
 package meinburger.ingredients;
 
-public class Vegetable extends Ingredients{
+import Interfaces.HoeheBerechenbar;
+
+public class Vegetable extends Ingredients implements HoeheBerechenbar{
 	
 	private int scheibenDicke;
 	private int scheibenAnzahl;
